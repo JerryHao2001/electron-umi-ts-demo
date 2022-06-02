@@ -2829,6 +2829,13 @@
   dependencies:
     "@umijs/utils" "3.5.10"
 
+"@umijs/babel-plugin-auto-css-modules@3.5.25":
+  version "3.5.25"
+  resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-auto-css-modules/-/babel-plugin-auto-css-modules-3.5.25.tgz#b1ca739826beb37a295970ded46afcc5faf90346"
+  integrity sha512-CW1BdJN3w9GXh0dJmjafiXJpdkTIErAfoj6XELnku+/bFTyJIqP5olgh0s7tPF9iQxF0DJ7koAO7PSng5v9FPQ==
+  dependencies:
+    "@umijs/utils" "3.5.25"
+
 "@umijs/babel-plugin-import-to-await-require@3.4.25":
   version "3.4.25"
   resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-import-to-await-require/-/babel-plugin-import-to-await-require-3.4.25.tgz#8bc8347d36d1107605dcbf5b6f41498aa062206c"
@@ -2842,6 +2849,13 @@
   integrity sha512-cKwt8lEmv7WeBwaT+0wSRsdtaDXrjpmJoxL6YIhyFwhyKmlEsEj0c02opZnAE1h5qThuuXfi9Qd1ZV5yR+tb3A==
   dependencies:
     "@umijs/utils" "3.5.10"
+
+"@umijs/babel-plugin-import-to-await-require@3.5.25":
+  version "3.5.25"
+  resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-import-to-await-require/-/babel-plugin-import-to-await-require-3.5.25.tgz#7f673cedef391ca9945bd9b94c85db225b8d8254"
+  integrity sha512-v2fM6HnhNnpVZUKBQFnyLTIn6eJ0nMRvtJIa3cBHdeuvD9JfPJrO1YH7gyb1g4dnyHcpk4zJWDXgdVQAujP/4w==
+  dependencies:
+    "@umijs/utils" "3.5.25"
 
 "@umijs/babel-plugin-lock-core-js-3@3.4.25":
   version "3.4.25"
@@ -2859,6 +2873,14 @@
     "@umijs/utils" "3.5.10"
     core-js "3.6.5"
 
+"@umijs/babel-plugin-lock-core-js-3@3.5.25":
+  version "3.5.25"
+  resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-lock-core-js-3/-/babel-plugin-lock-core-js-3-3.5.25.tgz#922a3c9263730f968e6a60afce26a460630d4777"
+  integrity sha512-98L7TmKotcu4D99j2xRkQwve0slAEsw5/+W+IT6ualdgPq2gMn6akuPudmzNtaxpsq6VyWFl4YXbdASERsEWAg==
+  dependencies:
+    "@umijs/utils" "3.5.25"
+    core-js "3.6.5"
+
 "@umijs/babel-plugin-no-anonymous-default-export@3.4.25":
   version "3.4.25"
   resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-no-anonymous-default-export/-/babel-plugin-no-anonymous-default-export-3.4.25.tgz#4c47af75656b98bc84659bf7a4cc869645d95c0f"
@@ -2872,6 +2894,13 @@
   integrity sha512-pNlA2wZ7/r/s5l1X53H+BJdf0czYFNWqUS/8twNo2Hi2pbOkPHvqga3ylBRIUchcd9Q45TV00g35wgicgmBqKw==
   dependencies:
     "@umijs/utils" "3.5.10"
+
+"@umijs/babel-plugin-no-anonymous-default-export@3.5.25":
+  version "3.5.25"
+  resolved "https://registry.yarnpkg.com/@umijs/babel-plugin-no-anonymous-default-export/-/babel-plugin-no-anonymous-default-export-3.5.25.tgz#9229f5d00ca127c3876ce6e4072a3942f0c504b3"
+  integrity sha512-P6YZ/Yu8lHdRTg8lS46cywNnIU6rEjY9Q9ahpNr7l1Yv+wGkP4Tsu482RCC0woXNypl/XZ8hfES1oiQhWi1fcw==
+  dependencies:
+    "@umijs/utils" "3.5.25"
 
 "@umijs/babel-preset-umi@3.4.25":
   version "3.4.25"
@@ -2895,6 +2924,18 @@
     "@umijs/babel-plugin-lock-core-js-3" "3.5.10"
     "@umijs/babel-plugin-no-anonymous-default-export" "3.5.10"
     "@umijs/deps" "3.5.10"
+
+"@umijs/babel-preset-umi@3.5.25":
+  version "3.5.25"
+  resolved "https://registry.yarnpkg.com/@umijs/babel-preset-umi/-/babel-preset-umi-3.5.25.tgz#61b1055e5a9cd40f58b9f49cc0d2be6020078949"
+  integrity sha512-TpFeakU8zFYyEz/iB+JDgBLb9Lc5AZwtCXGN7s0XvsHduKjgKOlSLI586TGkEO9lmFweVKcRTbhkD2bXqTYcnQ==
+  dependencies:
+    "@babel/runtime" "7.12.5"
+    "@umijs/babel-plugin-auto-css-modules" "3.5.25"
+    "@umijs/babel-plugin-import-to-await-require" "3.5.25"
+    "@umijs/babel-plugin-lock-core-js-3" "3.5.25"
+    "@umijs/babel-plugin-no-anonymous-default-export" "3.5.25"
+    "@umijs/deps" "3.5.25"
 
 "@umijs/bundler-utils@3.5.10":
   version "3.5.10"
@@ -2957,6 +2998,19 @@
     esbuild "0.12.15"
     jest-worker "24.9.0"
     prettier "2.2.1"
+
+"@umijs/deps@3.5.25":
+  version "3.5.25"
+  resolved "https://registry.yarnpkg.com/@umijs/deps/-/deps-3.5.25.tgz#d94c4bad74961c334b5e6a1d26a51f00a9e57149"
+  integrity sha512-tTboVD4aqIWhZfyTCBXza3HgDhakzvbkms6yvymhZLi21/gav6v/BNH36S27B81AOeQCXJV5jsVRaO4Blse7eg==
+  dependencies:
+    "@bloomberg/record-tuple-polyfill" "0.0.3"
+    chokidar "3.5.1"
+    clipboardy "2.3.0"
+    esbuild "0.12.15"
+    jest-worker "24.9.0"
+    prettier "2.2.1"
+    regenerate-unicode-properties "9.0.0"
 
 "@umijs/fabric@^2.6.2":
   version "2.6.2"
@@ -3191,21 +3245,20 @@
     "@umijs/deps" "3.5.10"
     "@umijs/utils" "3.5.10"
 
-"@umijs/test@^3.5.10":
-  version "3.5.10"
-  resolved "https://registry.yarnpkg.com/@umijs/test/-/test-3.5.10.tgz#b922082ee1e4f20d8100ea7aaf6db7b0ae24562e"
-  integrity sha512-Hcble8ls/9yoFLhXrKn4zqIVA/4Gk6iYoOIPVOv5F0jQtgv5K5LT+1GvpV6mXVm/pC/HxYVP/ey6GFP0h68HHQ==
+"@umijs/test@^3.5.25":
+  version "3.5.25"
+  resolved "https://registry.yarnpkg.com/@umijs/test/-/test-3.5.25.tgz#8bc583c5f4e294dc0e6cb07a1c16d737b625b35f"
+  integrity sha512-FQ6G9uFZur1mMN1X5s4/87g1IfRDpq6gU6O25kIH2nY8L5wd9hBRZ0hjWjh6/ATQSeAZW+Ue6zudK38s0ABCQg==
   dependencies:
     "@babel/core" "7.12.10"
-    "@umijs/babel-preset-umi" "3.5.10"
-    "@umijs/utils" "3.5.10"
+    "@umijs/babel-preset-umi" "3.5.25"
+    "@umijs/utils" "3.5.25"
     babel-core "7.0.0-bridge.0"
     babel-jest "^26.6.3"
     core-js "3.8.2"
     identity-obj-proxy "3.0.0"
     jest "^26.6.3"
     jest-cli "^26.6.3"
-    jest-environment-jsdom-fourteen "1.0.1"
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.5.0"
 
@@ -3257,6 +3310,13 @@
   integrity sha512-iU5AfAbsHHwaK5xZy/t/d+AKSRLOurF46StNZAGNo1eUyU24k1JUm6sR/jqyI32WwRNGFz+pkbplgWF8ZcQ9PQ==
   dependencies:
     "@umijs/deps" "3.5.10"
+
+"@umijs/utils@3.5.25":
+  version "3.5.25"
+  resolved "https://registry.yarnpkg.com/@umijs/utils/-/utils-3.5.25.tgz#1426d0f8296616fc340b849238c08969efde5d1f"
+  integrity sha512-MySv+mnCFLXEa7n6/O2IbG75XrccM5znFdPIIEHOrDBJHMwsfkUAqnn+A4kFbfHLa2tQoChIpvjicxPTMocAGQ==
+  dependencies:
+    "@umijs/deps" "3.5.25"
 
 "@webassemblyjs/ast@1.11.0":
   version "1.11.0"
@@ -15806,6 +15866,13 @@ reflect-metadata@^0.1.13:
   resolved "https://registry.npm.taobao.org/reflect-metadata/download/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
   integrity sha1-Z648pXyXKiqhZCsQ/jY/4y1J3Ag=
 
+regenerate-unicode-properties@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/regenerate-unicode-properties/-/regenerate-unicode-properties-9.0.0.tgz#54d09c7115e1f53dc2314a974b32c1c344efe326"
+  integrity sha512-3E12UeNSPfjrgwjkR81m5J7Aw/T55Tu7nUyZVQYCKEOs+2dkxEY+DpPtZzO4YruuiPb7NkYLVcyJC4+zCbk5pA==
+  dependencies:
+    regenerate "^1.4.2"
+
 regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
   resolved "https://registry.npm.taobao.org/regenerate-unicode-properties/download/regenerate-unicode-properties-8.2.0.tgz#e5de7111d655e7ba60c057dbe9ff37c87e65cdec"
@@ -15813,7 +15880,7 @@ regenerate-unicode-properties@^8.2.0:
   dependencies:
     regenerate "^1.4.0"
 
-regenerate@^1.4.0:
+regenerate@^1.4.0, regenerate@^1.4.2:
   version "1.4.2"
   resolved "https://registry.npm.taobao.org/regenerate/download/regenerate-1.4.2.tgz?cache=0&sync_timestamp=1604218526490&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fregenerate%2Fdownload%2Fregenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
   integrity sha1-uTRtiCfo9aMve6KWN9OYtpAUhIo=
